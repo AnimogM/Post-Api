@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+}
+
+.mybutton:hover{
+    /* color: rgb(255, 255, 255) !important; */
+    background-color: rgb(10, 92, 85) !important;
+    transition: 0.5s;
+}
+
+#search-box{
+    background: url('../image/outline_search_black_24dp.png');
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 10px center;
+
+}
+.search-hide{
+    transition: 0.3s linear !important;
+}
+
+.search-hide:hover{
+    transform: scale(1.05) !important;
+}
