@@ -7,7 +7,7 @@ let dataArray = [];
 // render post
 const renderPosts = (post) => {
     let b = post.map((items) => {
-        return ` <div class="col-md-4 search-hide">
+        return ` <div class="col-lg-4 col-md-6 search-hide">
                     <a href="post.html?id=${items.id}" class="text-decoration-none text-dark">
                         <div class="card h-100">
                             <div class="card-body">
